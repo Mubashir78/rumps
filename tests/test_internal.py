@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-import pytest
 
 from rumps._internal import guard_unexpected_errors
 

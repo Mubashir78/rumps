@@ -23,8 +23,12 @@ __license__ = 'Modified BSD'
 __copyright__ = 'Copyright 2020 Jared Suttles'
 
 from . import notifications as _notifications
-from .rumps import (separator, debug_mode, alert, application_support, timers, quit_application, timer,
-                    clicked, MenuItem, SliderMenuItem, TextFieldMenuItem, Timer, Window, App, slider, text_field)
+from .rumps import (separator as separator, debug_mode as debug_mode, alert as alert,
+                    application_support as application_support, timers as timers,
+                    quit_application as quit_application, timer as timer,
+                    clicked as clicked, MenuItem as MenuItem, SliderMenuItem as SliderMenuItem,
+                    TextFieldMenuItem as TextFieldMenuItem, Timer as Timer, Window as Window,
+                    App as App, slider as slider, text_field as text_field)
 
 notifications = _notifications.on_notification
 notification = _notifications.notify

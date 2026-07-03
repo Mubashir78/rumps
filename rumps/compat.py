@@ -21,7 +21,6 @@ if not PY2:
 
     iteritems = lambda d: iter(d.items())
 
-    import collections.abc as collections_abc
 
 else:
     binary_type = ()
@@ -30,4 +29,3 @@ else:
 
     iteritems = lambda d: d.iteritems()
 
-    import collections as collections_abc
